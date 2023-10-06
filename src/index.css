@@ -1,23 +1,41 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Almarai', sans-serif;
+  font-family: "Almarai", sans-serif;
 }
-button{
+
+button {
   border: none;
   border-radius: 20px !important;
   background-color: #a084db;
   padding: 10px 20px;
- color: #e5c1e5 ;
- font-size: 17px !important;
- font-weight: 400 !important;
+  color: #e5c1e5;
+  font-size: 17px !important;
+  font-weight: 400 !important;
 }
-.HomePage_body{
+.body {
   background-color: #e5c1e5 !important;
 }
 
-.mynavbar{
+.mynavbar {
   background-color: #635cbb !important;
   color: #e5c1e5 !important;
+}
+.footer {
+  color: #e5c1e5;
+  background-color: #635cbb !important;
+  text-align: center;
+  width: 100%;
+  height: max-content;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+}
+.searchbar{
+  cursor: pointer;
+  position: fixed;
+  top: 50%;
+  bottom: 50%;
+  right: 20px;
 }

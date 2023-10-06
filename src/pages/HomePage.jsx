@@ -1,10 +1,13 @@
 import axios from 'axios'
-import MyNavbar from '../component/navbar'
+import MyTable from '../component/table'
 
 function HomePage() {
   return (
-  <div className="HomePage_body " style={{width:"100%",height:"100%"}}>
-    <MyNavbar/>
+  <div className="HomePage_body">
+    <MyTable/>
+    <div className="searchbar">
+      <img src="../../public/assets/searchicon.png" alt="" />
+    </div>
   </div>
     )
 }

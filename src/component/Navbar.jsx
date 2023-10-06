@@ -7,13 +7,14 @@ const MyNavbar = () => {
     <div>
       <Navbar className="mynavbar py-3">
         <Container>
-          <Navbar.Brand href="#home" style={{ color: "#e5c1e5" }}>
+          <Navbar.Brand href="#home" style={{ color: "#e5c1e5" , display:"flex",alignItems:"center",gap:"20px"}}>
             <img
               alt=""
-              src="/img/logo.svg"
-              width="30"
-              height="30"
+              src="../../public/assets/logo.png"
+              width="70"
+              height="70"
               className="d-inline-block align-top"
+              
             />{" "}
             جمعية حقوق الطفل
           </Navbar.Brand>
