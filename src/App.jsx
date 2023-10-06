@@ -8,7 +8,7 @@ import Footer from './component/Footer'
 
 function App() {
   return (
-  <div className="body" style={{height:"100vh"}}>
+  <div style={{height:"maxContent"}} className="body" >
     <MyNavbar/>
     <HomePage/>
     <Footer/>

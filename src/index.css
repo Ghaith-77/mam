@@ -13,6 +13,11 @@ button {
   color: #e5c1e5;
   font-size: 17px !important;
   font-weight: 400 !important;
+  transition: .2s all ease-in-out;
+}
+button:hover{
+  background-color: #9776dd;
+
 }
 .body {
   background-color: #e5c1e5 !important;
@@ -22,6 +27,8 @@ button {
   background-color: #635cbb !important;
   color: #e5c1e5 !important;
 }
+
+
 .footer {
   color: #e5c1e5;
   background-color: #635cbb !important;
@@ -29,13 +36,12 @@ button {
   width: 100%;
   height: max-content;
   padding: 10px 0;
-  position: fixed;
   bottom: 0;
 }
 .searchbar{
   cursor: pointer;
   position: fixed;
-  top: 50%;
-  bottom: 50%;
-  right: 20px;
+  top: 55%;
+  right: 10px;
+  transform: translateY(-50%);
 }
