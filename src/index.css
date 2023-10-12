@@ -5,43 +5,70 @@
   font-family: "Almarai", sans-serif;
 }
 
+:root {
+  --lightmoodnavandfooter: #635cbb;
+  --background: #e5c1e5;
+  --btns: #a084db;
+  --btnstext: #e5c1e5;
+}
 button {
   border: none;
   border-radius: 20px !important;
-  background-color: #a084db;
+  background-color: var(--btns);
   padding: 10px 20px;
-  color: #e5c1e5;
+  color: var(--btnstext);
   font-size: 17px !important;
   font-weight: 400 !important;
-  transition: .2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
 }
-button:hover{
+button:hover {
   background-color: #9776dd;
-
-}
-.body {
-  background-color: #e5c1e5 !important;
 }
 
 .mynavbar {
-  background-color: #635cbb !important;
-  color: #e5c1e5 !important;
+  background-color: var(--lightmoodnavandfooter) !important;
 }
-
 
 .footer {
   color: #e5c1e5;
-  background-color: #635cbb !important;
+  background-color: var(--lightmoodnavandfooter) !important;
   text-align: center;
   width: 100%;
   height: max-content;
   padding: 10px 0;
   bottom: 0;
 }
-.searchbar{
+
+/* ما عرفت اعمله لما يصير اخرثق على ال tr */
+/* .person{
+  transition: .2s all ease-in-out !important;
   cursor: pointer;
-  position: fixed;
-  top: 55%;
-  right: 10px;
-  transform: translateY(-50%);
 }
+.person:hover{
+  background-color: rgb(180, 180, 180) !important;
+} */
+
+/* MyTable */
+.conteinerTable {
+  padding: 20px !important;
+}
+.app {
+  height: 100vh !important;
+}
+.HomePage_body{
+  height: 69% !important;
+}
+.MyTable tr,
+.MyTable th,
+.MyTable td {
+  background-color: transparent !important;
+}
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: black !important;
+}
+/* MyTable */
