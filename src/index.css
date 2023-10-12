@@ -36,7 +36,6 @@ button:hover {
   width: 100%;
   height: max-content;
   padding: 10px 0;
-  bottom: 0;
 }
 
 /* ما عرفت اعمله لما يصير اخرثق على ال tr */
@@ -56,7 +55,8 @@ button:hover {
   height: 100vh !important;
 }
 .HomePage_body{
-  height: 69% !important;
+  height: max-content !important;
+  min-height: 69% !important;
 }
 .MyTable tr,
 .MyTable th,
