@@ -48,6 +48,9 @@ button:hover {
 } */
 
 /* MyTable */
+.firstTD{
+  color: var(--lightmoodnavandfooter) !important;
+}
 .conteinerTable {
   padding: 20px !important;
 }
